@@ -495,7 +495,7 @@
         "kind": 6,
         "importPath": "news.apps",
         "description": "news.apps",
-        "peekOfCode": "class NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'\n    # def ready(self):\n    #     \"\"\"\n    #     Initialize the app, including starting the scheduler\n    #     \"\"\"\n    #     from . import scheduler\n    #     try:\n    #         scheduler.start()",
+        "peekOfCode": "class NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'\n    def ready(self):\n        \"\"\"\n        Initialize the app, including starting the scheduler\n        \"\"\"\n        from . import scheduler\n        try:\n            scheduler.start()",
         "detail": "news.apps",
         "documentation": {}
     },
@@ -504,7 +504,7 @@
         "kind": 5,
         "importPath": "news.apps",
         "description": "news.apps",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nclass NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'\n    # def ready(self):\n    #     \"\"\"\n    #     Initialize the app, including starting the scheduler\n    #     \"\"\"\n    #     from . import scheduler\n    #     try:",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'\n    def ready(self):\n        \"\"\"\n        Initialize the app, including starting the scheduler\n        \"\"\"\n        from . import scheduler\n        try:",
         "detail": "news.apps",
         "documentation": {}
     },
