@@ -1,5 +1,22 @@
 [
     {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "management",
+        "importPath": "django.core",
+        "description": "django.core",
+        "isExtraImport": true,
+        "detail": "django.core",
+        "documentation": {}
+    },
+    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -122,6 +139,14 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "BackgroundScheduler",
         "importPath": "apscheduler.schedulers.background",
         "description": "apscheduler.schedulers.background",
@@ -209,6 +234,51 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
         "documentation": {}
     },
     {
@@ -538,6 +608,114 @@
         "documentation": {}
     },
     {
+        "label": "print_section",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def print_section(title):\n    \"\"\"Print a section header to make output more readable\"\"\"\n    print(\"\\n\" + \"=\"*80)\n    print(f\" {title} \".center(80, \"=\"))\n    print(\"=\"*80 + \"\\n\")\ndef print_response(response, label=None):\n    \"\"\"Pretty print a response for debugging\"\"\"\n    if label:\n        print(f\"\\n--- {label} ---\")\n    print(f\"Status Code: {response.status_code}\")",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "print_response",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def print_response(response, label=None):\n    \"\"\"Pretty print a response for debugging\"\"\"\n    if label:\n        print(f\"\\n--- {label} ---\")\n    print(f\"Status Code: {response.status_code}\")\n    print(f\"Headers: {dict(response.headers)}\")\n    try:\n        print(\"Response Body:\")\n        pretty_json = json.dumps(response.json(), indent=2)\n        # Limit output to prevent flooding the console",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_list_items",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_list_items():\n    \"\"\"Test the GET /items/ endpoint with various filters\"\"\"\n    print_section(\"TESTING LIST ITEMS ENDPOINT\")\n    # Test basic list endpoint\n    print(\"Testing basic list endpoint...\")\n    response = requests.get(f\"{BASE_URL}/items/\", headers=HEADERS)\n    assert response.status_code == 200, f\"Expected status code 200, got {response.status_code}\"\n    data = response.json()\n    assert \"count\" in data, \"Response missing 'count' field\"\n    assert \"results\" in data, \"Response missing 'results' field\"",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_item_detail",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_item_detail(item_id):\n    \"\"\"Test the GET /items/{item_id}/ endpoint\"\"\"\n    print_section(f\"TESTING ITEM DETAIL ENDPOINT FOR ITEM {item_id}\")\n    response = requests.get(f\"{BASE_URL}/items/{item_id}/\", headers=HEADERS)\n    assert response.status_code == 200, f\"Expected status code 200, got {response.status_code}\"\n    item_data = response.json()\n    print(f\"Successfully retrieved item {item_id}\")\n    print(f\"Title: {item_data.get('title')}\")\n    print(f\"Type: {item_data.get('type')}\")\n    print(f\"Author: {item_data.get('by')}\")",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_item",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_create_item():\n    \"\"\"Test the POST /items/ endpoint\"\"\"\n    print_section(\"TESTING CREATE ITEM ENDPOINT\")\n    # Create a new item\n    new_item = {\n        \"type\": \"story\",\n        \"by\": \"api_test_user\",\n        \"title\": f\"Test Story Created at {datetime.now().isoformat()}\",\n        \"text\": \"This is a test story created by the API test script.\",\n        \"score\": random.randint(1, 100)",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_item",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_update_item(item_id):\n    \"\"\"Test the PUT and PATCH /items/{item_id}/ endpoints\"\"\"\n    print_section(f\"TESTING UPDATE ITEM ENDPOINT FOR ITEM {item_id}\")\n    # Update the item with PATCH\n    update_data = {\n        \"title\": f\"Updated Test Story at {datetime.now().isoformat()}\",\n        \"score\": random.randint(1, 100)\n    }\n    print(f\"Updating item {item_id} with new title: {update_data['title']}\")\n    response = requests.patch(f\"{BASE_URL}/items/{item_id}/\", json=update_data, headers=HEADERS)",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_item",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_delete_item(item_id):\n    \"\"\"Test the DELETE /items/{item_id}/ endpoint\"\"\"\n    print_section(f\"TESTING DELETE ITEM ENDPOINT FOR ITEM {item_id}\")\n    print(f\"Deleting item {item_id}...\")\n    response = requests.delete(f\"{BASE_URL}/items/{item_id}/\", headers=HEADERS)\n    assert response.status_code == 204, f\"Expected status code 204, got {response.status_code}\"\n    print(f\"Successfully deleted item {item_id}\")\n    # Verify the item is gone\n    response = requests.get(f\"{BASE_URL}/items/{item_id}/\", headers=HEADERS)\n    assert response.status_code == 404, f\"Expected item to be gone (404), got {response.status_code}\"",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_hn_item_protection",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_hn_item_protection():\n    \"\"\"Test that Hacker News items are protected from updates/deletes\"\"\"\n    print_section(\"TESTING PROTECTION OF HACKER NEWS ITEMS\")\n    # First, get a regular HN item (not created through our API)\n    response = requests.get(f\"{BASE_URL}/items/?created_locally=false\", headers=HEADERS)\n    assert response.status_code == 200\n    data = response.json()\n    if not data[\"results\"]:\n        print(\"No Hacker News items found in the database. Skipping protection test.\")\n        return",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "test_sync_endpoint",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def test_sync_endpoint():\n    \"\"\"Test the POST /sync/ endpoint\"\"\"\n    print_section(\"TESTING SYNC ENDPOINT\")\n    # Check how many items before sync\n    response = requests.get(f\"{BASE_URL}/items/\", headers=HEADERS)\n    before_count = response.json()[\"count\"]\n    print(f\"Items before sync: {before_count}\")\n    # Trigger a sync with a small count\n    sync_data = {\"count\": 5}  # Small number to make the test quick\n    print(f\"Triggering sync with count={sync_data['count']}...\")",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "def main():\n    global BASE_URL\n    parser = argparse.ArgumentParser(description=\"Test the Hacker News API\")\n    parser.add_argument(\"--url\", default=BASE_URL, help=\"Base URL for the API\")\n    parser.add_argument(\"--skip-delete\", action=\"store_true\", help=\"Skip deletion tests\")\n    args = parser.parse_args()\n    BASE_URL = args.url\n    print(f\"Testing Hacker News API at: {BASE_URL}\")\n    try:\n        # Test list endpoint and get a sample item",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "BASE_URL = \"http://localhost:8000/api\"\n# Headers for requests\nHEADERS = {\n    \"Content-Type\": \"application/json\",\n    \"Accept\": \"application/json\"\n}\ndef print_section(title):\n    \"\"\"Print a section header to make output more readable\"\"\"\n    print(\"\\n\" + \"=\"*80)\n    print(f\" {title} \".center(80, \"=\"))",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "news.test_script",
+        "description": "news.test_script",
+        "peekOfCode": "HEADERS = {\n    \"Content-Type\": \"application/json\",\n    \"Accept\": \"application/json\"\n}\ndef print_section(title):\n    \"\"\"Print a section header to make output more readable\"\"\"\n    print(\"\\n\" + \"=\"*80)\n    print(f\" {title} \".center(80, \"=\"))\n    print(\"=\"*80 + \"\\n\")\ndef print_response(response, label=None):",
+        "detail": "news.test_script",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "news.urls",
@@ -605,7 +783,7 @@
         "kind": 5,
         "importPath": "zcore.settings",
         "description": "zcore.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv()\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-$gix8^&!yb#=5@r3d6&^f2xprk25+uep8m2l5p_x&9_@mlo&e1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv()\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-$gix8^&!yb#=5@r3d6&^f2xprk25+uep8m2l5p_x&9_@mlo&e1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True",
         "detail": "zcore.settings",
         "documentation": {}
     },
@@ -614,7 +792,7 @@
         "kind": 5,
         "importPath": "zcore.settings",
         "description": "zcore.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-$gix8^&!yb#=5@r3d6&^f2xprk25+uep8m2l5p_x&9_@mlo&e1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-$gix8^&!yb#=5@r3d6&^f2xprk25+uep8m2l5p_x&9_@mlo&e1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',",
         "detail": "zcore.settings",
         "documentation": {}
     },
@@ -623,7 +801,7 @@
         "kind": 5,
         "importPath": "zcore.settings",
         "description": "zcore.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',",
         "detail": "zcore.settings",
         "documentation": {}
     },
