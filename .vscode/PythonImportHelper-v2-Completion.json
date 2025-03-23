@@ -1,0 +1,882 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "HackerNewsAPI",
+        "importPath": "news.services",
+        "description": "news.services",
+        "isExtraImport": true,
+        "detail": "news.services",
+        "documentation": {}
+    },
+    {
+        "label": "HackerNewsAPI",
+        "importPath": "news.services",
+        "description": "news.services",
+        "isExtraImport": true,
+        "detail": "news.services",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundScheduler",
+        "importPath": "apscheduler.schedulers.background",
+        "description": "apscheduler.schedulers.background",
+        "isExtraImport": true,
+        "detail": "apscheduler.schedulers.background",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoJobStore",
+        "importPath": "django_apscheduler.jobstores",
+        "description": "django_apscheduler.jobstores",
+        "isExtraImport": true,
+        "detail": "django_apscheduler.jobstores",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Max",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "logging,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging.",
+        "description": "logging.",
+        "detail": "logging.",
+        "documentation": {}
+    },
+    {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "FilterSet",
+        "importPath": "django_filters",
+        "description": "django_filters",
+        "isExtraImport": true,
+        "detail": "django_filters",
+        "documentation": {}
+    },
+    {
+        "label": "CharFilter",
+        "importPath": "django_filters",
+        "description": "django_filters",
+        "isExtraImport": true,
+        "detail": "django_filters",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanFilter",
+        "importPath": "django_filters",
+        "description": "django_filters",
+        "isExtraImport": true,
+        "detail": "django_filters",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoFilterBackend",
+        "importPath": "django_filters.rest_framework",
+        "description": "django_filters.rest_framework",
+        "isExtraImport": true,
+        "detail": "django_filters.rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "staticfiles_urlpatterns",
+        "importPath": "django.contrib.staticfiles.urls",
+        "description": "django.contrib.staticfiles.urls",
+        "isExtraImport": true,
+        "detail": "django.contrib.staticfiles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "news.management.commands.sync_last",
+        "description": "news.management.commands.sync_last",
+        "peekOfCode": "class Command(BaseCommand):\n    help = 'Sync items since the last synced item'\n    def handle(self, *args, **options):\n        self.stdout.write(\"Syncing items since last sync...\")\n        try:\n            result = HackerNewsAPI.sync_since_last()\n            if 'error' in result:\n                self.stdout.write(self.style.ERROR(f\"Sync failed: {result['error']}\"))\n                return\n            self.stdout.write(self.style.SUCCESS(",
+        "detail": "news.management.commands.sync_last",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.management.commands.sync_last",
+        "description": "news.management.commands.sync_last",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass Command(BaseCommand):\n    help = 'Sync items since the last synced item'\n    def handle(self, *args, **options):\n        self.stdout.write(\"Syncing items since last sync...\")\n        try:\n            result = HackerNewsAPI.sync_since_last()\n            if 'error' in result:\n                self.stdout.write(self.style.ERROR(f\"Sync failed: {result['error']}\"))\n                return",
+        "detail": "news.management.commands.sync_last",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "news.management.commands.sync_latest",
+        "description": "news.management.commands.sync_latest",
+        "peekOfCode": "class Command(BaseCommand):\n    help = 'Sync the latest items from Hacker News API'\n    def add_arguments(self, parser):\n        parser.add_argument('--count', type=int, default=100, help='Number of items to sync')\n    def handle(self, *args, **options):\n        count = options['count']\n        self.stdout.write(f\"Syncing {count} latest items from Hacker News...\")\n        try:\n            result = HackerNewsAPI.sync_latest_items(count)\n            self.stdout.write(self.style.SUCCESS(",
+        "detail": "news.management.commands.sync_latest",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.management.commands.sync_latest",
+        "description": "news.management.commands.sync_latest",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass Command(BaseCommand):\n    help = 'Sync the latest items from Hacker News API'\n    def add_arguments(self, parser):\n        parser.add_argument('--count', type=int, default=100, help='Number of items to sync')\n    def handle(self, *args, **options):\n        count = options['count']\n        self.stdout.write(f\"Syncing {count} latest items from Hacker News...\")\n        try:\n            result = HackerNewsAPI.sync_latest_items(count)",
+        "detail": "news.management.commands.sync_latest",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "news.migrations.0001_initial",
+        "description": "news.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Item',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('item_id', models.IntegerField(unique=True)),",
+        "detail": "news.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "news.migrations.0002_alter_item_by_alter_item_created_locally_and_more",
+        "description": "news.migrations.0002_alter_item_by_alter_item_created_locally_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('news', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='item',\n            name='by',\n            field=models.CharField(blank=True, help_text=\"The username of the item's author.\", max_length=255, null=True),\n        ),",
+        "detail": "news.migrations.0002_alter_item_by_alter_item_created_locally_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "ItemAdmin",
+        "kind": 6,
+        "importPath": "news.admin",
+        "description": "news.admin",
+        "peekOfCode": "class ItemAdmin(admin.ModelAdmin):\n    list_display = ('item_id', 'type', 'by', 'title', 'score', 'time', 'created_locally')\n    list_filter = ('type', 'created_locally', 'dead')\n    search_fields = ('item_id', 'by', 'title', 'text')\n    readonly_fields = ('synced_at',)\n    date_hierarchy = 'time'\n    def get_readonly_fields(self, request, obj=None):\n        \"\"\"Make item_id readonly for existing objects\"\"\"\n        if obj:\n            return self.readonly_fields + ('item_id',)",
+        "detail": "news.admin",
+        "documentation": {}
+    },
+    {
+        "label": "NewsConfig",
+        "kind": 6,
+        "importPath": "news.apps",
+        "description": "news.apps",
+        "peekOfCode": "class NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'\n    # def ready(self):\n    #     \"\"\"\n    #     Initialize the app, including starting the scheduler\n    #     \"\"\"\n    #     from . import scheduler\n    #     try:\n    #         scheduler.start()",
+        "detail": "news.apps",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.apps",
+        "description": "news.apps",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass NewsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'news'\n    # def ready(self):\n    #     \"\"\"\n    #     Initialize the app, including starting the scheduler\n    #     \"\"\"\n    #     from . import scheduler\n    #     try:",
+        "detail": "news.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "class Item(models.Model):\n    \"\"\"\n    Model representing a Hacker News item (story, comment, job, etc.)\n    \"\"\"\n    ITEM_TYPES = (\n        ('story', 'Story'),\n        ('comment', 'Comment'),\n        ('job', 'Job'),\n        ('poll', 'Poll'),\n        ('pollopt', 'Poll Option'),",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.models",
+        "description": "news.models",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass Item(models.Model):\n    \"\"\"\n    Model representing a Hacker News item (story, comment, job, etc.)\n    \"\"\"\n    ITEM_TYPES = (\n        ('story', 'Story'),\n        ('comment', 'Comment'),\n        ('job', 'Job'),\n        ('poll', 'Poll'),",
+        "detail": "news.models",
+        "documentation": {}
+    },
+    {
+        "label": "sync_hackernews_job",
+        "kind": 2,
+        "importPath": "news.scheduler",
+        "description": "news.scheduler",
+        "peekOfCode": "def sync_hackernews_job():\n    \"\"\"Job to sync data from Hacker News API\"\"\"\n    logger.info(f\"Running scheduled HackerNews sync job at {datetime.now()}\")\n    try:\n        result = HackerNewsAPI.sync_since_last()\n        logger.info(f\"Scheduled sync complete: {result}\")\n    except Exception as e:\n        logger.error(f\"Error in scheduled sync job: {str(e)}\", exc_info=True)\ndef start():\n    print(\"start function called for scheduler\")",
+        "detail": "news.scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "news.scheduler",
+        "description": "news.scheduler",
+        "peekOfCode": "def start():\n    print(\"start function called for scheduler\")\n    \"\"\"Start the APScheduler and perform an initial sync\"\"\"\n    scheduler = BackgroundScheduler()\n    scheduler.add_jobstore(DjangoJobStore(), \"default\")\n    print(\"scheduler created\")\n    # # Perform an initial sync before starting the scheduler\n    # logger.info(\"Performing initial sync...\")\n    # try:\n    #     result = HackerNewsAPI.sync_since_last()",
+        "detail": "news.scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.scheduler",
+        "description": "news.scheduler",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef sync_hackernews_job():\n    \"\"\"Job to sync data from Hacker News API\"\"\"\n    logger.info(f\"Running scheduled HackerNews sync job at {datetime.now()}\")\n    try:\n        result = HackerNewsAPI.sync_since_last()\n        logger.info(f\"Scheduled sync complete: {result}\")\n    except Exception as e:\n        logger.error(f\"Error in scheduled sync job: {str(e)}\", exc_info=True)\ndef start():",
+        "detail": "news.scheduler",
+        "documentation": {}
+    },
+    {
+        "label": "CommentSerializer",
+        "kind": 6,
+        "importPath": "news.serializers",
+        "description": "news.serializers",
+        "peekOfCode": "class CommentSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for comment display (without nested comments)\"\"\"\n    class Meta:\n        model = Item\n        exclude = ['parent', 'poll', 'kids', 'parts']\nclass ItemSerializer(serializers.ModelSerializer):\n    \"\"\"Main serializer for Item model\"\"\"\n    class Meta:\n        model = Item\n        fields = '__all__'",
+        "detail": "news.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ItemSerializer",
+        "kind": 6,
+        "importPath": "news.serializers",
+        "description": "news.serializers",
+        "peekOfCode": "class ItemSerializer(serializers.ModelSerializer):\n    \"\"\"Main serializer for Item model\"\"\"\n    class Meta:\n        model = Item\n        fields = '__all__'\n        read_only_fields = ['synced_at', 'item_id']\n    def validate(self, data):\n        \"\"\"Validate the data before saving\"\"\"\n        logger.debug(f\"Validating data for item serializer: {data}\")\n        if self.context['request'].method == 'POST':",
+        "detail": "news.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ItemDetailSerializer",
+        "kind": 6,
+        "importPath": "news.serializers",
+        "description": "news.serializers",
+        "peekOfCode": "class ItemDetailSerializer(serializers.ModelSerializer):\n    \"\"\"Detailed serializer with comments\"\"\"\n    comments = serializers.SerializerMethodField()\n    class Meta:\n        model = Item\n        fields = '__all__'\n    def get_comments(self, obj):\n        \"\"\"Get top-level comments for this item\"\"\"\n        if obj.kids:\n            logger.debug(f\"Fetching {len(obj.kids)} comments for item {obj.item_id}\")",
+        "detail": "news.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.serializers",
+        "description": "news.serializers",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass CommentSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for comment display (without nested comments)\"\"\"\n    class Meta:\n        model = Item\n        exclude = ['parent', 'poll', 'kids', 'parts']\nclass ItemSerializer(serializers.ModelSerializer):\n    \"\"\"Main serializer for Item model\"\"\"\n    class Meta:\n        model = Item",
+        "detail": "news.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "HackerNewsAPI",
+        "kind": 6,
+        "importPath": "news.services",
+        "description": "news.services",
+        "peekOfCode": "class HackerNewsAPI:\n    \"\"\"Service class for interacting with the Hacker News API\"\"\"\n    BASE_URL = \"https://hacker-news.firebaseio.com/v0\"\n    @staticmethod\n    def get_item(item_id):\n        \"\"\"Fetch an item from the Hacker News API\"\"\"\n        url = f\"{HackerNewsAPI.BASE_URL}/item/{item_id}.json\"\n        logger.debug(f\"Fetching item {item_id} from HN API: {url}\")\n        try:\n            response = requests.get(url, timeout=10)",
+        "detail": "news.services",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.services",
+        "description": "news.services",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass HackerNewsAPI:\n    \"\"\"Service class for interacting with the Hacker News API\"\"\"\n    BASE_URL = \"https://hacker-news.firebaseio.com/v0\"\n    @staticmethod\n    def get_item(item_id):\n        \"\"\"Fetch an item from the Hacker News API\"\"\"\n        url = f\"{HackerNewsAPI.BASE_URL}/item/{item_id}.json\"\n        logger.debug(f\"Fetching item {item_id} from HN API: {url}\")\n        try:",
+        "detail": "news.services",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "news.urls",
+        "description": "news.urls",
+        "peekOfCode": "urlpatterns = [\n    path('items/', ItemListCreateView.as_view(), name='item-list'),\n    path('items/<int:item_id>/', ItemRetrieveUpdateDestroyView.as_view(), name='item-detail'),\n    path('sync/', SyncView.as_view(), name='sync'),\n]",
+        "detail": "news.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ItemFilter",
+        "kind": 6,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "class ItemFilter(FilterSet):\n    \"\"\"FilterSet for Item model\"\"\"\n    type = CharFilter(field_name='type')\n    by = CharFilter(field_name='by')\n    dead = BooleanFilter(field_name='dead')\n    created_locally = BooleanFilter(field_name='created_locally')\n    top_level = BooleanFilter(method='filter_top_level')\n    def filter_top_level(self, queryset, name, value):\n        \"\"\"Filter for top-level items (no parent)\"\"\"\n        if value:",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "ItemListCreateView",
+        "kind": 6,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "class ItemListCreateView(generics.ListCreateAPIView):\n    \"\"\"\n    API endpoint for listing and creating HN items.\n    GET:\n    - Returns a paginated list of items\n    - Supports filtering by type, author, dead status, and more\n    - Supports search in title, text, and author fields\n    - Supports sorting by various fields\n    POST:\n    - Creates a new item locally (not on Hacker News)",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "ItemRetrieveUpdateDestroyView",
+        "kind": 6,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "class ItemRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):\n    \"\"\"\n    API endpoint for retrieving, updating, and deleting individual items.\n    GET:\n    - Returns detailed information about a specific item, including comments\n    PUT/PATCH:\n    - Updates a locally created item (not from Hacker News)\n    DELETE:\n    - Deletes a locally created item (not from Hacker News)\n    \"\"\"",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "SyncView",
+        "kind": 6,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "class SyncView(APIView):\n    \"\"\"\n    API endpoint for manually triggering a sync with Hacker News.\n    POST:\n    - Triggers a sync with Hacker News\n    - Can specify a count parameter to limit the number of items to sync\n    \"\"\"\n    def post(self, request, format=None):\n        \"\"\"Handle POST requests to trigger a sync\"\"\"\n        logger.info(f\"SyncView.post called with data: {request.data}\")",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "news.views",
+        "description": "news.views",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ItemFilter(FilterSet):\n    \"\"\"FilterSet for Item model\"\"\"\n    type = CharFilter(field_name='type')\n    by = CharFilter(field_name='by')\n    dead = BooleanFilter(field_name='dead')\n    created_locally = BooleanFilter(field_name='created_locally')\n    top_level = BooleanFilter(method='filter_top_level')\n    def filter_top_level(self, queryset, name, value):\n        \"\"\"Filter for top-level items (no parent)\"\"\"",
+        "detail": "news.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "zcore.asgi",
+        "description": "zcore.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "zcore.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv()\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-$gix8^&!yb#=5@r3d6&^f2xprk25+uep8m2l5p_x&9_@mlo&e1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-$gix8^&!yb#=5@r3d6&^f2xprk25+uep8m2l5p_x&9_@mlo&e1'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nCORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',\n    'x-csrftoken',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_HEADERS",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "CORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',\n    'x-csrftoken',\n    'x-requested-with',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = [\n    'DELETE',\n    'GET',\n    'OPTIONS',\n    'PATCH',\n    'POST',\n    'PUT',\n]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'whitenoise.runserver_nostatic',\n    'corsheaders',\n    'django_apscheduler',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    'PAGE_SIZE': 25,\n    'DEFAULT_FILTER_BACKENDS': [\n        'django_filters.rest_framework.DjangoFilterBackend',\n        'rest_framework.filters.SearchFilter',\n        'rest_framework.filters.OrderingFilter',\n    ],\n}\n# Configure APScheduler",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "APSCHEDULER_DATETIME_FORMAT",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "APSCHEDULER_DATETIME_FORMAT = \"N j, Y, f:s a\"\nSCHEDULER_DEFAULT = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SCHEDULER_DEFAULT",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "SCHEDULER_DEFAULT = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "ROOT_URLCONF = 'zcore.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'zcore.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.environ.get('DB_NAME'),\n        'USER': os.environ.get('DB_USER'),\n        'PASSWORD': os.environ.get('DB_PASSWORD'),\n        'HOST': os.environ.get('DB_HOST'),",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.environ.get('DB_NAME'),\n        'USER': os.environ.get('DB_USER'),\n        'PASSWORD': os.environ.get('DB_PASSWORD'),\n        'HOST': os.environ.get('DB_HOST'),\n        'PORT': os.environ.get('DB_PORT'),\n    }\n}",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),\n]",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'static')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Celery Configuration",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'zcore/static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Celery Configuration\n# CELERY_BROKER_URL = 'redis://redis:6379/0'",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Celery Configuration\n# CELERY_BROKER_URL = 'redis://redis:6379/0'\n# CELERY_RESULT_BACKEND = 'redis://redis:6379/0'\n# CELERY_ACCEPT_CONTENT = ['json']\n# CELERY_TASK_SERIALIZER = 'json'",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Celery Configuration\n# CELERY_BROKER_URL = 'redis://redis:6379/0'\n# CELERY_RESULT_BACKEND = 'redis://redis:6379/0'\n# CELERY_ACCEPT_CONTENT = ['json']\n# CELERY_TASK_SERIALIZER = 'json'\n# CELERY_RESULT_SERIALIZER = 'json'",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Celery Configuration\n# CELERY_BROKER_URL = 'redis://redis:6379/0'\n# CELERY_RESULT_BACKEND = 'redis://redis:6379/0'\n# CELERY_ACCEPT_CONTENT = ['json']\n# CELERY_TASK_SERIALIZER = 'json'\n# CELERY_RESULT_SERIALIZER = 'json'\n# CELERY_TIMEZONE = TIME_ZONE\n# Logging configuration\nLOGGING = {",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGGING",
+        "kind": 5,
+        "importPath": "zcore.settings",
+        "description": "zcore.settings",
+        "peekOfCode": "LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'formatters': {\n        'verbose': {\n            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',\n            'style': '{',\n        },\n        'simple': {\n            'format': '{levelname} {asctime} {message}',",
+        "detail": "zcore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "zcore.urls",
+        "description": "zcore.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('news.urls')),\n]\nurlpatterns += staticfiles_urlpatterns()\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "zcore.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "zcore.wsgi",
+        "description": "zcore.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "zcore.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'zcore.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
